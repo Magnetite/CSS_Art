@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> CSS triangles</title>
+<style>
+
+div {
+position:absolute;
+float: left;
+//background-color: pink;
+display: flex;
+
+}
+
+
+.one {
+width: 0;
+height: 0;
+border-left: 30px solid transparent;
+border-right: 30px solid transparent;
+border-bottom: 130px solid #2323f3;
+z-index: 0;
+}
+
+.two {
+margin-top: 65px;
+margin-left: 15px;
+width: 0;
+height: 0;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-top: 65px solid #ff0000;
+z-index: 1;
+}
+
+</style>
+</head>
+<body>
+
+<div class="one"></div>
+<div class="two"></div>
+
+</body>
+</html>
