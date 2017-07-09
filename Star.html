@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> CSS Star</title>
+<style>
+
+div {
+position:absolute;
+float: left;
+//background-color: pink;
+display: flex;
+
+
+}
+
+.con {
+margin-top: 300px;
+margin-left: 400px;
+}
+
+
+.bottom {
+width: 0;
+height: 0;
+margin-left: 200px;
+margin-top: 100px;
+border-left: 250px solid transparent;
+border-right: 250px solid transparent;
+border-bottom: 150px solid #2323f3;
+z-index: 0;
+}
+
+.left-dn {
+width: 0;
+height: 0;
+margin-left: 200px;
+border-bottom: 200px solid transparent;
+border-right: 200px solid transparent;
+border-left: 150px solid pink;
+z-index: 1;
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+<div class="con">
+	<div class="bottom"></div>
+	
+	<div class="left-dn"></div>
+	<div class="left-up"></div>
+	
+	<div class="right-up"></div>
+	<div class="right-dn"></div>
+	
+	<div class="up-left1"></div>
+	<div class="up-left2"></div>
+	
+	<div class="up-right1"></div>
+	<div class="up-right2"></div>
+	
+</div>
+
+
+
+
+
+</body>
+</html>
